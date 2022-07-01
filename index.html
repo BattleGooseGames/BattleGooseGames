@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- CSS Code File (Place Your CSS in Here) -->
+    <link href="css/style.css" rel="stylesheet" />
+    
+    <!-- JavaScript Code File (Place Your Scripts in Here) -->
+    <script src="js/app.js"></script>
+    
+    <title>Battle Goose Games</title>
+    
+  </head>
+  <body>
+    <!-- Navigation Bar [BEGIN] -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- Set Brand Logo -->
+        <a class="navbar-brand" href="#"><img src="images/goose-logo.png" height="27px" alt="Image of Pixel Goose" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <!-- Active Class for Nav Link (Home/Games Page) -->
+              <a class="nav-link active" aria-current="page" href="#">Games</a>
+            </li>
+            <li class="nav-item">
+              <!-- Specify href Page for All Other Nav Links -->
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Resources
+              </a>
+              <!-- Navbar Dropdown -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" target="_blank" href="https://gdevelop.io/">GDevelop</a></li>
+                <li><a class="dropdown-item" target="_blank" href="https://itch.io/">itch.io</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" target="_blank" href="https://www.shadowpuppetrealm.com/home">Shadow Puppet Realm</a></li>
+              </ul>
+            </li>
+            <!-- Navbar Disabled Link Example -->
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Coming Soon...</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation Bar [END] -->
+    
+    <h3 class="text-center">Games</h3>
+    <br />
+    <!-- Game Cards [BEGIN] -->
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-md-6 g-4">
+        <!-- Joss Game Card -->
+        <div class="col">
+          <div class="card">
+            <img src="images/card-joss.png" class="card-img-top" alt="Card Image of Joss">
+            <div class="card-body">
+              <h5 class="card-title">Joss the Game</h5>
+              <p class="card-text">An exciting game based off the life off Jessica Davies.  Escape from the yard guys in this thrilling adventure!</p>
+              <a href="#" class="btn btn-primary">Launch Game</a>
+            </div>
+          </div>
+        </div>
+        <!-- Bread Thief Game Card -->
+        <div class="col">
+          <div class="card">
+            <img src="images/card-bread.png" class="card-img-top" alt="Card Image of Bread">
+            <div class="card-body">
+              <h5 class="card-title">Bread Thief</h5>
+              <p class="card-text">Steal the bread.  All of it!  You know you want to steal the bread... come on, just a little?</p>
+              <a href="#" class="btn btn-primary">Launch Game</a>
+            </div>
+          </div>
+        </div>
+        <!-- Mouse Machina Game Card -->
+        <div class="col">
+          <div class="card">
+            <img src="images/card-mouse.png" class="card-img-top" alt="Card Image of Mouse">
+            <div class="card-body">
+              <h5 class="card-title">Mouse Machina</h5>
+              <p class="card-text">Wow!  Your cursor is a mouse.  Make it do things, like monching on cheese, and win the game.</p>
+              <a href="#" class="btn btn-primary">Launch Game</a>
+            </div>
+          </div>
+        </div>
+        <!-- Placeholder Game Card -->
+        <div class="col">
+          <div class="card">
+            <img src="images/placeholder.png" class="card-img-top" alt="Card Image Description">
+            <div class="card-body">
+              <h5 class="card-title">Blank Card</h5>
+              <p class="card-text">Hey Wilson... you know what to do here! Use this as a template for any other cards you want.</p>
+              <!-- Show Modal on Button Click (Example) -->
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Do Whatever</a>
+            </div>
+          </div>
+        </div>
+        <!-- Placeholder Game Card -->
+        <div class="col">
+          <div class="card">
+            <img src="images/placeholder.png" class="card-img-top" alt="Card Image Description">
+            <div class="card-body">
+              <h5 class="card-title">Blank Card</h5>
+              <p class="card-text">Hey Wilson... you know what to do here! Use this as a template for any other cards you want.</p>
+              <!-- Show Off Canvas (Right) on Button Click (Example) -->
+              <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Do Whatever</a>
+            </div>
+          </div>
+        </div>
+        <!-- Placeholder Game Card -->
+        <div class="col" style="padding-bottom: 60px;">
+          <div class="card">
+            <img src="images/placeholder.png" class="card-img-top" alt="Card Image Description">
+            <div class="card-body">
+              <h5 class="card-title">Blank Card</h5>
+              <p class="card-text">Hey Wilson... you know what to do here! Use this as a template for any other cards you want.</p>
+              <!-- Show Off Canvas (Left) on Button Click (Example) -->
+              <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft">Do Whatever</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Game Cards [END] -->
+    
+    <!-- Modal [BEGIN] -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Hey! Stop That!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            You know this isn't a thing yet.  Knock it off! - Corban
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Bind Action Here</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal [END] -->
+    
+    <!-- Off Canvas [BEGIN] -->
+    <!-- Off Canvas (Right) -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Offcanvas Right</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>This is called "Off Canvas: Right"... you can set it to Top, Bottom, and Left as well.</p>
+        <p>Also... stop it, I told you this wasn't a thing yet!</p><br />
+        <!-- Show Off Canvas (Bottom) on Button Click (Example) -->
+        <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Switch to Bottom</a>
+      </div>
+    </div>
+    <!-- Off Canvas (Bottom) -->
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasBottomLabel">Offcanvas Bottom</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>This is called "Off Canvas: Bottom"... you can set it to Top, Right, and Left as well.</p>
+        <p>Again, I'm begging you... there's nothing here yet, so please stop!</p>
+      </div>
+    </div>
+    <!-- Off Canvas (Left) -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasLeftLabel">Offcanvas Left</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>This is called "Off Canvas: Left"... you can set it to Top, Bottom, and Right as well.</p>
+        <p>This is your last warning, I'm telling you for the last time, this wasn't a thing yet!</p><br />
+        <!-- Show Off Canvas (Top) on Button Click (Example) -->
+        <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasBottom">Switch to Top</a>
+      </div>
+    </div><!-- Off Canvas (Top) -->
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasTopLabel">Offcanvas Top</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>This is called "Off Canvas: Top"... you can set it to Bottom, Right, and Left as well.</p>
+        <p>I give up...</p>
+      </div>
+    </div>
+    <!-- Off Canvas [END] -->
+    
+    <!-- Footer [BEGIN] -->
+    <footer class="footer text-center text-lg-start bg-light text-muted">
+      <!-- Copyright -->
+      <div class="text-center" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2022 Copyright: Wilson Davies (Goose Wrangler)
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer [END] -->
+    
+  </body>
+</html>
